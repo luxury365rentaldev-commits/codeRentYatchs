@@ -8,4 +8,8 @@ export const imagesAzimut55ft = {
   img6: `${base}/6.jpg`,
   img7: `${base}/7.jpg`,
   img8: `${base}/8.jpg`,
+  img9: `${base}/9.jpg`,
+  img10: `${base}/10.jpg`,
+  img11: `${base}/11.jpg`,
+  img12: `${base}/12.jpg`,
 }

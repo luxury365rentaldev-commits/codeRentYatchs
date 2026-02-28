@@ -33,6 +33,10 @@ import { imagesFourWins42ft } from './four_wins'
 import { imagesSearaySundancer47ft } from './searay_sundancer_47ft'
 import { imagesRegal42ft } from './regal_42ft'
 import { imagesSearayJacuzzi65ft } from './seareay_jacuzzi_65ft'
+import { imagesBeneteau52ftFly } from './beneteau_52ft_fly'
+import { imagesAzimut100ft } from './azimut_100ft'
+import { imagesAzimut66ft } from './azimut_66ft'
+import { imagesSunseeker70ft } from './sunseeker_70ft'
 
 export const data = {
   yachts: [
@@ -198,23 +202,18 @@ export const data = {
       category: 'yachts',
       url: 'azimut_55ft',
       description:
-        'Monday - Friday $1700. Weekends $1900. Includes: captain, mate, gas, floating Matt and jetski for 1 hour. Location: Miamy Beach. -Capacity: 13 people max',
+        'Azimut 55ft available. Includes: captain, mate, gas, floating Matt, cooler, Bluetooth speakers and 1 jetski for 1 hour.',
       location: 'Miami Beach',
       mainImage: imagesAzimut55ft.img1,
       price: '1700',
       prices: [
         {
           price: '1700',
-          time: '',
-          days: 'Monday - Friday',
-        },
-        {
-          price: '1900',
-          time: '',
-          days: 'Weekends',
+          time: '4',
+          days: '',
         },
       ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'jetski for 1 hour'],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
       gallery: [
         imagesAzimut55ft.img1,
         imagesAzimut55ft.img2,
@@ -224,6 +223,95 @@ export const data = {
         imagesAzimut55ft.img6,
         imagesAzimut55ft.img7,
         imagesAzimut55ft.img8,
+        imagesAzimut55ft.img9,
+        imagesAzimut55ft.img10,
+        imagesAzimut55ft.img11,
+        imagesAzimut55ft.img12,
+      ],
+    },
+    {
+      itemName: 'Azimut 66ft',
+      category: 'yachts',
+      url: 'azimut_66ft',
+      description:
+        'Azimut 66ft available. Includes: captain, mate, gas, floating Matt, cooler, Bluetooth speakers and 1 jetski for 1 hour.',
+      location: 'Miami Beach',
+      mainImage: imagesAzimut66ft.img1,
+      price: '3000',
+      prices: [
+        {
+          price: '3000',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesAzimut66ft.img1,
+        imagesAzimut66ft.img2,
+        imagesAzimut66ft.img3,
+        imagesAzimut66ft.img4,
+        imagesAzimut66ft.img5,
+        imagesAzimut66ft.img6,
+        imagesAzimut66ft.img7,
+        imagesAzimut66ft.img8,
+        imagesAzimut66ft.img9,
+        imagesAzimut66ft.img10,
+        imagesAzimut66ft.img11,
+        imagesAzimut66ft.img12,
+      ],
+    },
+    {
+      itemName: 'Azimut 100ft',
+      category: 'yachts',
+      url: 'azimut_100ft',
+      description:
+        'Azimut 100ft available. Includes: captain, mate, gas, cooler, Bluetooth speakers, floating Matt and 1 jetski for 1 hour.',
+      location: '',
+      mainImage: imagesAzimut100ft.img1,
+      price: '4500  ',
+      prices: [
+        {
+          price: '4500',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesAzimut100ft.img1,
+        imagesAzimut100ft.img2,
+        imagesAzimut100ft.img3,
+        imagesAzimut100ft.img4,
+        imagesAzimut100ft.img5,
+        imagesAzimut100ft.img6,
+        imagesAzimut100ft.img7,
+        imagesAzimut100ft.img8,
+      ],
+    },
+    {
+      itemName: 'Beneteau 52ft fly',
+      category: 'yachts',
+      url: 'beneteau_52ft_fly',
+      description:
+        'Beneteau 52ft fly available. Includes: Mate, Captain, Gas, Floating Matt, Cooler, Bluetooth speakers, 1 jetski for 1 hour.',
+      location: '',
+      mainImage: imagesBeneteau52ftFly.img1,
+      price: '1850',
+      prices: [
+        {
+          price: '1850',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesBeneteau52ftFly.img1,
+        imagesBeneteau52ftFly.img2,
+        imagesBeneteau52ftFly.img3,
+        imagesBeneteau52ftFly.img4,
+        imagesBeneteau52ftFly.img5,
       ],
     },
     {
@@ -397,7 +485,7 @@ export const data = {
       price: '3700',
       prices: [
         {
-          price: '3700',
+          price: '3000',
           time: '4',
         },
       ],
@@ -407,11 +495,8 @@ export const data = {
         imagesMarques70ft.img2,
         imagesMarques70ft.img3,
         imagesMarques70ft.img4,
-        imagesMarques70ft.img5,
-        imagesMarques70ft.img6,
       ],
     },
-
     {
       itemName: 'Princes 58ft',
       category: 'yachts',
@@ -736,6 +821,34 @@ export const data = {
       ],
     },
     {
+      itemName: 'Sunseeker 70ft',
+      category: 'yachts',
+      url: 'sunseeker_70ft',
+      description:
+        'Sunseeker 70ft available. Includes: captain, mate, gas, floating Matt, cooler, Bluetooth speakers and 1 jetski for 1 hour!.',
+      location: '',
+      mainImage: imagesSunseeker70ft.img1,
+      price: '3200',
+      prices: [
+        {
+          price: '3200',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour!'],
+      gallery: [
+        imagesSunseeker70ft.img1,
+        imagesSunseeker70ft.img2,
+        imagesSunseeker70ft.img3,
+        imagesSunseeker70ft.img4,
+        imagesSunseeker70ft.img5,
+        imagesSunseeker70ft.img6,
+        imagesSunseeker70ft.img7,
+        imagesSunseeker70ft.img8,
+      ],
+    },
+    {
       itemName: 'Sunseeker New Page 75ft',
       category: 'yachts',
       url: 'sunseeker_new_page_75ft',
@@ -872,6 +985,7 @@ export const data = {
         imagesViking.img10,
       ],
     },
+
   ],
   transportation: [
     {
