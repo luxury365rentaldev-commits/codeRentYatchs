@@ -37,9 +37,43 @@ import { imagesBeneteau52ftFly } from './beneteau_52ft_fly'
 import { imagesAzimut100ft } from './azimut_100ft'
 import { imagesAzimut66ft } from './azimut_66ft'
 import { imagesSunseeker70ft } from './sunseeker_70ft'
+import { imagesAcqua90ftWithJacuzzi } from './acqua_90ft_with_jacuzzi'
+import { imagesMaiora110ft } from './maiora_110ft'
+import { imagesSeaRay44ft } from './sea_ray_44ft'
+import { imagesSeaRay55ft } from './sea_ray_55ft'
 
 export const data = {
   yachts: [
+    {
+      itemName: 'ACQUA 90ft with jacuzzi',
+      category: 'yachts',
+      url: 'acqua_90ft_with_jacuzzi',
+      description:
+        'ACQUA 90ft with jacuzzi available. Includes:captain, mate ,cooler, Bluetooth speakers,floating Matt and 1 jetski 1 hour free.',
+      location: '',
+      mainImage: imagesAcqua90ftWithJacuzzi.img1,
+      price: '3500',
+      prices: [
+        {
+          price: '3500',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesAcqua90ftWithJacuzzi.img1,
+        imagesAcqua90ftWithJacuzzi.img2,
+        imagesAcqua90ftWithJacuzzi.img3,
+        imagesAcqua90ftWithJacuzzi.img4,
+        imagesAcqua90ftWithJacuzzi.img5,
+        imagesAcqua90ftWithJacuzzi.img6,
+        imagesAcqua90ftWithJacuzzi.img7,
+        imagesAcqua90ftWithJacuzzi.img8,
+        imagesAcqua90ftWithJacuzzi.img9,
+        imagesAcqua90ftWithJacuzzi.img10,
+      ],
+    },
     {
       itemName: 'Azimut 50ft',
       category: 'yachts',
@@ -475,6 +509,34 @@ export const data = {
       ],
     },
     {
+      itemName: 'Maiora 110ft',
+      category: 'yachts',
+      url: 'maiora_110ft',
+      description:
+        'Maiora 110ft available. Includes:captain, mate ,cooler, Bluetooth speakers,floating Matt and 1 jetski 1 hour free.',
+      location: '',
+      mainImage: imagesMaiora110ft.img1,
+      price: '4500',
+      prices: [
+        {
+          price: '4500',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesMaiora110ft.img1,
+        imagesMaiora110ft.img2,
+        imagesMaiora110ft.img3,
+        imagesMaiora110ft.img4,
+        imagesMaiora110ft.img5,
+        imagesMaiora110ft.img6,
+        imagesMaiora110ft.img7,
+        imagesMaiora110ft.img8,
+      ],
+    },
+    {
       itemName: 'Marques 70ft',
       category: 'yachts',
       url: 'marques_70ft',
@@ -606,6 +668,29 @@ export const data = {
       ],
     },
     {
+      itemName: 'Searay 44ft',
+      category: 'yachts',
+      url: 'searay_44ft',
+      description:
+        'Searay 44ft available. Includes:captain, mate ,cooler, Bluetooth speakers,floating Matt.',
+      location: '',
+      mainImage: imagesSeaRay44ft.img1,
+      price: '975',
+      prices: [
+        {
+          price: '975',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers'],
+      gallery: [
+        imagesSeaRay44ft.img1,
+        imagesSeaRay44ft.img2,
+        imagesSeaRay44ft.img3,
+      ],
+    },
+    {
       itemName: 'Searay 50ft',
       category: 'yachts',
       url: 'sea_ray_50ft',
@@ -706,6 +791,31 @@ export const data = {
         imagesSeaRaySundancer50ft.img4,
         imagesSeaRaySundancer50ft.img5,
         imagesSeaRaySundancer50ft.img6,
+      ],
+    },
+    {
+      itemName: 'Searay 55ft',
+      category: 'yachts',
+      url: 'searay_55ft',
+      description:
+        'Searay 55ft available. Includes:captain, mate ,cooler, Bluetooth speakers,floating Matt and 1 jetski for 1 hour.',
+      location: '',
+      mainImage: imagesSeaRay55ft.img1,
+      price: '1400',
+      prices: [
+        {
+          price: '1400',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesSeaRay55ft.img1,
+        imagesSeaRay55ft.img2,
+        imagesSeaRay55ft.img3,
+        imagesSeaRay55ft.img4,
+        imagesSeaRay55ft.img5,
       ],
     },
     {
