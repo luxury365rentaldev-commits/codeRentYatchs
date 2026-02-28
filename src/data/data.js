@@ -41,6 +41,7 @@ import { imagesAcqua90ftWithJacuzzi } from './acqua_90ft_with_jacuzzi'
 import { imagesMaiora110ft } from './maiora_110ft'
 import { imagesSeaRay44ft } from './sea_ray_44ft'
 import { imagesSeaRay55ft } from './sea_ray_55ft'
+import { imagesMeridan42ft } from './meridan_42ft'
 
 export const data = {
   yachts: [
@@ -557,6 +558,31 @@ export const data = {
         imagesMarques70ft.img2,
         imagesMarques70ft.img3,
         imagesMarques70ft.img4,
+      ],
+    },
+    {
+      itemName: 'Meridan 42ft',
+      category: 'yachts',
+      url: 'meridan_42ft',
+      description:
+        'Meridan 42ft. Includes:captain, mate ,cooler, Bluetooth speakers,floating Matt and 1 jetski 1 hour free. -Capacity: 13 people max',
+      location: '',
+      mainImage: imagesMeridan42ft.img1,
+      price: '1300  ',
+      prices: [
+        {
+          price: '1300',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesMeridan42ft.img1,
+        imagesMeridan42ft.img2,
+        imagesMeridan42ft.img3,
+        imagesMeridan42ft.img4,
+        imagesMeridan42ft.img5,
       ],
     },
     {
