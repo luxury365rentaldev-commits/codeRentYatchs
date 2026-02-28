@@ -1,6 +1,7 @@
-import logoIg from '../../assets/instagram.png'
 import { CONSTANTES } from '../../utils/constants'
 import styles from './footer.module.scss'
+
+const logoIg = '/assets/instagram.png'
 const Footer = () => {
   return (
     <footer className={styles.footer}>

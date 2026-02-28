@@ -1,5 +1,4 @@
-import img1 from '../assets/WaveRunner/1.jpg'
-
+const base = '/assets/WaveRunner'
 export const imagesWaveRunner = {
-  img1,
+  img1: `${base}/1.jpg`,
 }

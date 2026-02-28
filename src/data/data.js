@@ -1,26 +1,18 @@
-import { imagesAbsolute60ft } from './absolute_60ft'
 import { imagesAdonis80ft } from './adonis_80ft'
-import { imagesAxoparBrabus40ft } from './axopar_brabus40ft'
 import { imagesAzimut50ft } from './azimut_50ft'
 import { imagesAzimut52ft } from './azimut_52ft'
 import { imagesAzimut55ft } from './azimut_55ft'
 import { imagesBlackMonterrey27ft } from './black_monterrey27ft'
-import { imagesCruiser45ft } from './cruiser_45ft'
 import { imagesCruiserSport50ft } from './cruiser_sport_50ft'
 import { imagesEscapaSilverton50ft } from './escapa_silverton_50ft'
-import { imagesIcon65ft } from './icon_65ft'
 import { imagesJetCar } from './jetcar'
-import { imagesLeopard119ft } from './leopard_119ft'
 import { imagesLumar70ft } from './lumar70ft'
 import { imagesMercedesBenz } from './m_benz'
 import { imagesMarques70ft } from './marques_70ft'
 import { imagesNewPage75ft } from './new_page75gt'
-import { imagesNimbus31ft } from './nimbus_31ft'
-import { imagesPardo38ft } from './pardo_38ft'
 import { imagesRegal90ft } from './regal_90ft'
 import { imagesSeaRay50ft } from './sea_ray50ft'
 import { imagesSeaRay52ft } from './sea_ray52ft'
-import { imagesSeaRaySedanFly48ft } from './sea_ray_sedan_fly_48ft'
 import { imagesSeaRaySundancer38ft } from './sea_ray_sundancer38ft'
 import { imagesSeaRaySundancer50ft } from './sea_ray_sundancer50ft'
 import { imagesSundancerSport60ft } from './sundancer_sport60ft'
@@ -31,14 +23,10 @@ import { imagesSunseekerV280ft } from './sunseeker_v280ft'
 import { imagesThales } from './thales'
 import { imagesTransportation } from './transportation'
 import { imagesViking } from './viking'
-import { imagesWarrior65ft } from './warrior_65ft'
 import { imagesWaveRunner } from './wave_runner'
-import { imagesYamaha } from './yamaha_ar25ft'
 import { imagesCranchi50ft } from './cranchi_50ft'
 import { imagesSealine40ft } from './sealine_40ft'
-import { imagesIco80ft } from './ico_80ft'
 import { imagesPrinces58ft } from './princess_58ft'
-import { imagesZestForLife70ft } from './zest_for_life_70ft'
 import { imagesThePanther65ft } from './the_panther_65ft'
 import { imagesGaleon45ft } from './galeon_45ft'
 import { imagesFourWins42ft } from './four_wins'
@@ -48,38 +36,6 @@ import { imagesSearayJacuzzi65ft } from './seareay_jacuzzi_65ft'
 
 export const data = {
   yachts: [
-    {
-      itemName: 'Cruiser 45ft',
-      category: 'yachts',
-      url: 'cruiser_45ft',
-      description:
-        'Monday-Friday 4 hours $899. Weekends 4 hours $999. Includes: captain, mate ,gas, floating Matt and 1 jetski for 1 hour! Location: Miami River 5 star location. -Capacity: 13 people max',
-      location: 'Miami River',
-      mainImage: imagesCruiser45ft.img1,
-      price: '899',
-      prices: [
-        {
-          price: '899',
-          time: '4',
-          days: 'Monday - Friday',
-        },
-        {
-          price: '999',
-          time: '4',
-          days: 'Weekends',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'jetski for 1 hour'],
-      gallery: [
-        imagesCruiser45ft.img1,
-        imagesCruiser45ft.img2,
-        imagesCruiser45ft.img3,
-        imagesCruiser45ft.img4,
-        imagesCruiser45ft.img5,
-        imagesCruiser45ft.img6,
-        imagesCruiser45ft.img7,
-      ],
-    },
     {
       itemName: 'Azimut 50ft',
       category: 'yachts',
@@ -163,38 +119,6 @@ export const data = {
       ],
     },
     {
-      itemName: 'Searay Sedan Fly 48ft',
-      category: 'yachts',
-      url: 'sea_ray_sedan_fly_48ft',
-      description:
-        'Sea ray sedan bridge 48 ft summer special: Monday-Thursday $999 Weekends $1200 Location: Miami Beach Includes: captain,mate,gas and floating Matt!. -Capacity: 13 people max',
-      location: 'Miami Beach',
-      mainImage: imagesSeaRaySedanFly48ft.img2,
-      price: '999',
-      prices: [
-        {
-          price: '999',
-          time: '',
-          days: 'Monday - Thursday',
-        },
-        {
-          price: '1200',
-          time: '',
-          days: 'Weekends',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt'],
-      gallery: [
-        imagesSeaRaySedanFly48ft.img1,
-        imagesSeaRaySedanFly48ft.img2,
-        imagesSeaRaySedanFly48ft.img3,
-        imagesSeaRaySedanFly48ft.img4,
-        imagesSeaRaySedanFly48ft.img5,
-        imagesSeaRaySedanFly48ft.img6,
-        imagesSeaRaySedanFly48ft.img7,
-      ],
-    },
-    {
       itemName: 'Sunseeker 80ft Sliptease',
       category: 'yachts',
       url: 'sunseeker_80ft_sliptease',
@@ -223,30 +147,6 @@ export const data = {
       ],
     },
     {
-      itemName: 'Absolute 60ft',
-      category: 'yachts',
-      url: 'absolute_60ft',
-      description:
-        'Absolute 60ft available. Location: Miami Beach. Includes:captain, mate ,cooler, Bluetooth speakers,floating Matt and 1 jetski 1 hour free. -Capacity: 13 people max',
-      location: 'Miami Beach',
-      mainImage: imagesAbsolute60ft.img1,
-      price: '2500',
-      prices: [
-        {
-          price: '2500',
-          time: '4',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
-      gallery: [
-        imagesAbsolute60ft.img1,
-        imagesAbsolute60ft.img2,
-        imagesAbsolute60ft.img3,
-        imagesAbsolute60ft.img4,
-        imagesAbsolute60ft.img5,
-      ],
-    },
-    {
       itemName: 'Adonis 80ft with jacuzzi',
       category: 'yachts',
       url: 'adonis_80ft',
@@ -272,29 +172,6 @@ export const data = {
         imagesAdonis80ft.img8,
         imagesAdonis80ft.img9,
         imagesAdonis80ft.img10,
-      ],
-    },
-    {
-      itemName: 'Axopar Brabus 40ft',
-      category: 'yachts',
-      url: 'axopar_brabus_40ft',
-      description: 'Includes: captain, mate, gas and floating Matt. Location: Miami Beach. -Capacity: 13 people max',
-      location: 'Miami Beach',
-      mainImage: imagesAxoparBrabus40ft.img1,
-      price: '1500',
-      prices: [
-        {
-          price: '1500',
-          time: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt'],
-      gallery: [
-        imagesAxoparBrabus40ft.img1,
-        imagesAxoparBrabus40ft.img2,
-        imagesAxoparBrabus40ft.img3,
-        imagesAxoparBrabus40ft.img4,
-        imagesAxoparBrabus40ft.img5,
       ],
     },
     {
@@ -458,54 +335,6 @@ export const data = {
       gallery: [imagesFourWins42ft.img1, imagesFourWins42ft.img2, imagesFourWins42ft.img3, imagesFourWins42ft.img4],
     },
     {
-      itemName: 'Ico 80ft',
-      category: 'yachts',
-      url: 'ico_80ft',
-      description: 'Ico 80ft. Includes: captain, mate ,gas ,marina fee ,floating Matt. -Capacity: 13 people max',
-      location: '',
-      mainImage: imagesIco80ft.img1,
-      price: '5500',
-      prices: [
-        {
-          price: '5500',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Marina Fee'],
-      gallery: [
-        imagesIco80ft.img1,
-        imagesIco80ft.img2,
-        imagesIco80ft.img3,
-        imagesIco80ft.img4,
-        imagesIco80ft.img5,
-        imagesIco80ft.img6,
-        imagesIco80ft.img7,
-        imagesIco80ft.img8,
-        imagesIco80ft.img9,
-        imagesIco80ft.img10,
-      ],
-    },
-    {
-      itemName: 'Icon 65ft',
-      category: 'yachts',
-      url: 'icon_65ft',
-      description:
-        'Icon 65ft. Includes:captain, mate ,cooler, Bluetooth speakers,floating Matt and 1 jetski 1 hour free. Capacity 13 people. -Capacity: 13 people max',
-      location: '',
-      mainImage: imagesIcon65ft.img1,
-      price: '2000',
-      prices: [
-        {
-          price: '2000',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
-      gallery: [imagesIcon65ft.img1, imagesIcon65ft.img2, imagesIcon65ft.img3],
-    },
-    {
       itemName: 'Galeon 45ft',
       category: 'yachts',
       url: 'galeon_45ft',
@@ -529,32 +358,6 @@ export const data = {
         imagesGaleon45ft.img4,
         imagesGaleon45ft.img5,
         imagesGaleon45ft.img6,
-      ],
-    },
-    {
-      itemName: 'Leopardo 119ft',
-      category: 'yachts',
-      url: 'leopardo_119ft',
-      description:
-        'Leopardo 119ft available now for only $5500! Includes: captain, mate, floating Matt, gas and 2 jetskies for 1 hour ! Location:Downtown miami. -Capacity: 13 people max',
-      location: 'Downtown Miami',
-      mainImage: imagesLeopard119ft.img1,
-      price: '5500',
-      prices: [
-        {
-          price: '5500',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', '2 jetskies for 1 hour'],
-      gallery: [
-        imagesLeopard119ft.img1,
-        imagesLeopard119ft.img2,
-        imagesLeopard119ft.img3,
-        imagesLeopard119ft.img4,
-        imagesLeopard119ft.img5,
-        imagesLeopard119ft.img6,
       ],
     },
     {
@@ -608,61 +411,7 @@ export const data = {
         imagesMarques70ft.img6,
       ],
     },
-    {
-      itemName: 'Nimbus "Sassy Girl" 31ft',
-      category: 'yachts',
-      url: 'nimbus_sassy_girl_31ft',
-      description:
-        'Nimbus "Sassy Girl" 31ft. Includes: captain, gas , marina fee and floating Matt. Location: downtown Miami. -Capacity: 13 people max',
-      location: 'Downtown Miami',
-      mainImage: imagesNimbus31ft.img1,
-      price: '1000',
-      prices: [
-        {
-          price: '1000',
-          time: '4',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Marina Fee'],
-      gallery: [
-        imagesNimbus31ft.img1,
-        imagesNimbus31ft.img2,
-        imagesNimbus31ft.img3,
-        imagesNimbus31ft.img4,
-        imagesNimbus31ft.img5,
-        imagesNimbus31ft.img6,
-      ],
-    },
-    {
-      itemName: 'Pardo 38ft',
-      category: 'yachts',
-      url: 'pardo_38ft',
-      description:
-        '38 FEET PARDO 2022 “SHINING FORCE ». All included up to 13 ppl Water ice soda, Towels not included. -Capacity: 13 people max',
-      location: '',
-      mainImage: imagesPardo38ft.img1,
-      price: '2000',
-      prices: [
-        {
-          price: '2000',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers'],
-      gallery: [
-        imagesPardo38ft.img1,
-        imagesPardo38ft.img2,
-        imagesPardo38ft.img3,
-        imagesPardo38ft.img4,
-        imagesPardo38ft.img5,
-        imagesPardo38ft.img6,
-        imagesPardo38ft.img7,
-        imagesPardo38ft.img8,
-        imagesPardo38ft.img9,
-        imagesPardo38ft.img10,
-      ],
-    },
+
     {
       itemName: 'Princes 58ft',
       category: 'yachts',
@@ -1121,95 +870,6 @@ export const data = {
         imagesViking.img8,
         imagesViking.img9,
         imagesViking.img10,
-      ],
-    },
-    {
-      itemName: 'Warrior 65ft',
-      category: 'yachts',
-      url: 'warrior_65ft',
-      description:
-        '“WARRIOR” 65ft $1800 4 hours ($200 off weekdays). Includes: Cooler, Ice, Bottled Water, 2 Paddle boards, Large Matt, Large inflatable Island, Captain, Mate/Stewardess: Serves food and drinks. Keeps vessel clean and organized throughout entire charter. -Capacity: 13 people max',
-      location: '',
-      mainImage: imagesWarrior65ft.img1,
-      price: '1500',
-      prices: [
-        {
-          price: '1600',
-          time: '4',
-          days: 'Monday-Friday',
-        },
-        {
-          price: '1800',
-          time: '4',
-          days: 'Weekends',
-        },
-      ],
-      aboutIt: [
-        'Cooler',
-        'Ice',
-        'Bottled Water',
-        '2 Paddle boards',
-        'Large matt',
-        'Large inflatable island',
-        'Captain',
-        'Mate/Stewardess: Serves food and drinks',
-      ],
-      gallery: [
-        imagesWarrior65ft.img1,
-        imagesWarrior65ft.img2,
-        imagesWarrior65ft.img3,
-        imagesWarrior65ft.img4,
-        imagesWarrior65ft.img5,
-        imagesWarrior65ft.img6,
-      ],
-    },
-    {
-      itemName: 'Yamaha 25ft',
-      category: 'yachts',
-      url: 'yamaha_25ft',
-      description:
-        'Yamaha ar25 ft available. Includes: captain, gas, cooler, Bluetooth speakers and floating Matt. -Capacity: 13 people max',
-      location: '',
-      mainImage: imagesYamaha.img1,
-      price: '499',
-      prices: [
-        {
-          price: '499',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers'],
-      gallery: [imagesYamaha.img1, imagesYamaha.img2],
-    },
-    {
-      itemName: 'Zest for Life 70ft',
-      category: 'yachts',
-      url: 'zest_for_life_70ft',
-      description:
-        'Zest for life 70ft. Includes: captain, mate, cooler, gas, bluetooth speakers and floating Matt. -Capacity: 13 people max',
-      location: '',
-      mainImage: imagesZestForLife70ft.img1,
-      price: '2300',
-      prices: [
-        {
-          price: '2300',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers'],
-      gallery: [
-        imagesZestForLife70ft.img1,
-        imagesZestForLife70ft.img2,
-        imagesZestForLife70ft.img3,
-        imagesZestForLife70ft.img4,
-        imagesZestForLife70ft.img5,
-        imagesZestForLife70ft.img6,
-        imagesZestForLife70ft.img7,
-        imagesZestForLife70ft.img8,
-        imagesZestForLife70ft.img9,
-        imagesZestForLife70ft.img10,
       ],
     },
   ],
