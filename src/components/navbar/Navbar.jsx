@@ -2,8 +2,9 @@ import { NavLink, Link } from 'react-router-dom'
 import style from './navbar.module.scss'
 import { useState } from 'react'
 import { useWindowSize } from '../../hooks/useWindowSize'
-import logo from '../../assets/logo_white.svg'
 import { CONSTANTES } from '../../utils/constants'
+
+const logo = '/assets/logo_white.svg'
 
 const Navbar = () => {
   const [active, setActive] = useState(false)
