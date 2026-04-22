@@ -381,36 +381,7 @@ export const data = {
         imagesBeneteau52ftFly.img5,
       ],
     },
-    {
-      itemName: 'Black Monterrey 27ft',
-      category: 'yachts',
-      url: 'black_monterrey_57ft',
-      description:
-        'Black Monterrey 27ft. Includes: captain, gas, Bluetooth speakers and cooler. -Capacity: 13 people max',
-      location: '',
-      mainImage: imagesBlackMonterrey27ft.img1,
-      price: '625',
-      prices: [
-        {
-          price: '625',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Captain', 'Gas', 'Cooler', 'Bluetooth speakers'],
-      gallery: [
-        imagesBlackMonterrey27ft.img1,
-        imagesBlackMonterrey27ft.img2,
-        imagesBlackMonterrey27ft.img3,
-        imagesBlackMonterrey27ft.img4,
-        imagesBlackMonterrey27ft.img5,
-        imagesBlackMonterrey27ft.img6,
-        imagesBlackMonterrey27ft.img7,
-        imagesBlackMonterrey27ft.img8,
-        imagesBlackMonterrey27ft.img9,
-        imagesBlackMonterrey27ft.img10,
-      ],
-    },
+
     {
       itemName: 'Cranchi 50ft',
       category: 'yachts',
@@ -1121,6 +1092,36 @@ export const data = {
         imagesThePanther65ft.img8,
         imagesThePanther65ft.img9,
         imagesThePanther65ft.img10,
+      ],
+    },
+    {
+      itemName: 'Black Monterrey 27ft',
+      category: 'yachts',
+      url: 'black_monterrey_57ft',
+      description:
+        'Black Monterrey 27ft. Includes: captain, gas, Bluetooth speakers and cooler. -Capacity: 13 people max',
+      location: '',
+      mainImage: imagesBlackMonterrey27ft.img1,
+      price: '625',
+      prices: [
+        {
+          price: '625',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Captain', 'Gas', 'Cooler', 'Bluetooth speakers'],
+      gallery: [
+        imagesBlackMonterrey27ft.img1,
+        imagesBlackMonterrey27ft.img2,
+        imagesBlackMonterrey27ft.img3,
+        imagesBlackMonterrey27ft.img4,
+        imagesBlackMonterrey27ft.img5,
+        imagesBlackMonterrey27ft.img6,
+        imagesBlackMonterrey27ft.img7,
+        imagesBlackMonterrey27ft.img8,
+        imagesBlackMonterrey27ft.img9,
+        imagesBlackMonterrey27ft.img10,
       ],
     },
     {
