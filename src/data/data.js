@@ -10,7 +10,7 @@ import { imagesLumar70ft } from './lumar70ft'
 import { imagesMercedesBenz } from './m_benz'
 import { imagesMarques70ft } from './marques_70ft'
 import { imagesNewPage75ft } from './new_page75gt'
-import { imagesRegal90ft } from './regal_90ft'
+// import { imagesRegal90ft } from './regal_90ft'
 import { imagesSeaRay50ft } from './sea_ray50ft'
 import { imagesSeaRay52ft } from './sea_ray52ft'
 import { imagesSeaRaySundancer38ft } from './sea_ray_sundancer38ft'
@@ -30,21 +30,84 @@ import { imagesPrinces58ft } from './princess_58ft'
 import { imagesThePanther65ft } from './the_panther_65ft'
 import { imagesGaleon45ft } from './galeon_45ft'
 import { imagesFourWins42ft } from './four_wins'
-import { imagesSearaySundancer47ft } from './searay_sundancer_47ft'
-import { imagesRegal42ft } from './regal_42ft'
+// import { imagesSearaySundancer47ft } from './searay_sundancer_47ft'
+// import { imagesRegal42ft } from './regal_42ft'
 import { imagesSearayJacuzzi65ft } from './seareay_jacuzzi_65ft'
 import { imagesBeneteau52ftFly } from './beneteau_52ft_fly'
 import { imagesAzimut100ft } from './azimut_100ft'
 import { imagesAzimut66ft } from './azimut_66ft'
+import { imagesAzimut66ftBlue } from './azimut_66ft_blue'
 import { imagesSunseeker70ft } from './sunseeker_70ft'
 import { imagesAcqua90ftWithJacuzzi } from './acqua_90ft_with_jacuzzi'
-import { imagesMaiora110ft } from './maiora_110ft'
+// import { imagesMaiora110ft } from './maiora_110ft'
 import { imagesSeaRay44ft } from './sea_ray_44ft'
 import { imagesSeaRay55ft } from './sea_ray_55ft'
 import { imagesMeridan42ft } from './meridan_42ft'
+import { imagesMercedesSprinterSkyBlue } from './mercedez_sprinter_sky_blue'
+import { imagesMercedesVanRoyalBlue } from './mercedes_van_royal_blue'
+import { imagesMercedesVanTiffanyBlue } from './mercedes_van_tiffany_blue'
 
 export const data = {
   yachts: [
+    {
+      itemName: 'Azimut 66ft',
+      category: 'yachts',
+      url: 'azimut_66ft',
+      description:
+        'Azimut 66ft available. Includes: captain, mate, gas, floating Matt, cooler, Bluetooth speakers and 1 jetski for 1 hour.',
+      location: 'Miami Beach',
+      mainImage: imagesAzimut66ftBlue.img1,
+      price: '3000',
+      prices: [
+        {
+          price: '3000',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesAzimut66ftBlue.img1,
+        imagesAzimut66ftBlue.img2,
+        imagesAzimut66ftBlue.img3,
+        imagesAzimut66ftBlue.img4,
+        imagesAzimut66ftBlue.img5,
+        imagesAzimut66ftBlue.img6,
+        imagesAzimut66ftBlue.img7,
+      ],
+    },
+    {
+      itemName: 'Azimut 55ft',
+      category: 'yachts',
+      url: 'azimut_55ft',
+      description:
+        'Azimut 55ft available. Includes: captain, mate, gas, floating Matt, cooler, Bluetooth speakers and 1 jetski for 1 hour.',
+      location: 'Miami Beach',
+      mainImage: imagesAzimut55ft.img1,
+      price: '1700',
+      prices: [
+        {
+          price: '1700',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesAzimut55ft.img1,
+        imagesAzimut55ft.img2,
+        imagesAzimut55ft.img3,
+        imagesAzimut55ft.img4,
+        imagesAzimut55ft.img5,
+        imagesAzimut55ft.img6,
+        imagesAzimut55ft.img7,
+        imagesAzimut55ft.img8,
+        imagesAzimut55ft.img9,
+        imagesAzimut55ft.img10,
+        imagesAzimut55ft.img11,
+        imagesAzimut55ft.img12,
+      ],
+    },
     {
       itemName: 'ACQUA 90ft with jacuzzi',
       category: 'yachts',
@@ -125,6 +188,38 @@ export const data = {
         imagesThales.img5,
         imagesThales.img6,
         imagesThales.img7,
+      ],
+    },
+    {
+      itemName: 'Azimut 66ft',
+      category: 'yachts',
+      url: 'azimut_66ft',
+      description:
+        'Azimut 66ft available. Includes: captain, mate, gas, floating Matt, cooler, Bluetooth speakers and 1 jetski for 1 hour.',
+      location: 'Miami Beach',
+      mainImage: imagesAzimut66ft.img1,
+      price: '3000',
+      prices: [
+        {
+          price: '3000',
+          time: '4',
+          days: '',
+        },
+      ],
+      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+      gallery: [
+        imagesAzimut66ft.img1,
+        imagesAzimut66ft.img2,
+        imagesAzimut66ft.img3,
+        imagesAzimut66ft.img4,
+        imagesAzimut66ft.img5,
+        imagesAzimut66ft.img6,
+        imagesAzimut66ft.img7,
+        imagesAzimut66ft.img8,
+        imagesAzimut66ft.img9,
+        imagesAzimut66ft.img10,
+        imagesAzimut66ft.img11,
+        imagesAzimut66ft.img12,
       ],
     },
     {
@@ -232,70 +327,7 @@ export const data = {
       aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Water', 'Ice', 'Marina Fee'],
       gallery: [imagesAzimut52ft.img1, imagesAzimut52ft.img2, imagesAzimut52ft.img3],
     },
-    {
-      itemName: 'Azimut 55ft',
-      category: 'yachts',
-      url: 'azimut_55ft',
-      description:
-        'Azimut 55ft available. Includes: captain, mate, gas, floating Matt, cooler, Bluetooth speakers and 1 jetski for 1 hour.',
-      location: 'Miami Beach',
-      mainImage: imagesAzimut55ft.img1,
-      price: '1700',
-      prices: [
-        {
-          price: '1700',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
-      gallery: [
-        imagesAzimut55ft.img1,
-        imagesAzimut55ft.img2,
-        imagesAzimut55ft.img3,
-        imagesAzimut55ft.img4,
-        imagesAzimut55ft.img5,
-        imagesAzimut55ft.img6,
-        imagesAzimut55ft.img7,
-        imagesAzimut55ft.img8,
-        imagesAzimut55ft.img9,
-        imagesAzimut55ft.img10,
-        imagesAzimut55ft.img11,
-        imagesAzimut55ft.img12,
-      ],
-    },
-    {
-      itemName: 'Azimut 66ft',
-      category: 'yachts',
-      url: 'azimut_66ft',
-      description:
-        'Azimut 66ft available. Includes: captain, mate, gas, floating Matt, cooler, Bluetooth speakers and 1 jetski for 1 hour.',
-      location: 'Miami Beach',
-      mainImage: imagesAzimut66ft.img1,
-      price: '3000',
-      prices: [
-        {
-          price: '3000',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
-      gallery: [
-        imagesAzimut66ft.img1,
-        imagesAzimut66ft.img2,
-        imagesAzimut66ft.img3,
-        imagesAzimut66ft.img4,
-        imagesAzimut66ft.img5,
-        imagesAzimut66ft.img6,
-        imagesAzimut66ft.img7,
-        imagesAzimut66ft.img8,
-        imagesAzimut66ft.img9,
-        imagesAzimut66ft.img10,
-        imagesAzimut66ft.img11,
-        imagesAzimut66ft.img12,
-      ],
-    },
+
     {
       itemName: 'Azimut 100ft',
       category: 'yachts',
@@ -509,34 +541,34 @@ export const data = {
         imagesLumar70ft.img7,
       ],
     },
-    {
-      itemName: 'Maiora 110ft',
-      category: 'yachts',
-      url: 'maiora_110ft',
-      description:
-        'Maiora 110ft available. Includes:captain, mate ,cooler, Bluetooth speakers,floating Matt and 1 jetski 1 hour free.',
-      location: '',
-      mainImage: imagesMaiora110ft.img1,
-      price: '4500',
-      prices: [
-        {
-          price: '4500',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
-      gallery: [
-        imagesMaiora110ft.img1,
-        imagesMaiora110ft.img2,
-        imagesMaiora110ft.img3,
-        imagesMaiora110ft.img4,
-        imagesMaiora110ft.img5,
-        imagesMaiora110ft.img6,
-        imagesMaiora110ft.img7,
-        imagesMaiora110ft.img8,
-      ],
-    },
+    // {
+    //   itemName: 'Maiora 110ft',
+    //   category: 'yachts',
+    //   url: 'maiora_110ft',
+    //   description:
+    //     'Maiora 110ft available. Includes:captain, mate ,cooler, Bluetooth speakers,floating Matt and 1 jetski 1 hour free.',
+    //   location: '',
+    //   mainImage: imagesMaiora110ft.img1,
+    //   price: '4500',
+    //   prices: [
+    //     {
+    //       price: '4500',
+    //       time: '4',
+    //       days: '',
+    //     },
+    //   ],
+    //   aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Cooler', 'Bluetooth speakers', '1 jetski for 1 hour'],
+    //   gallery: [
+    //     imagesMaiora110ft.img1,
+    //     imagesMaiora110ft.img2,
+    //     imagesMaiora110ft.img3,
+    //     imagesMaiora110ft.img4,
+    //     imagesMaiora110ft.img5,
+    //     imagesMaiora110ft.img6,
+    //     imagesMaiora110ft.img7,
+    //     imagesMaiora110ft.img8,
+    //   ],
+    // },
     {
       itemName: 'Marques 70ft',
       category: 'yachts',
@@ -615,61 +647,61 @@ export const data = {
         imagesPrinces58ft.img10,
       ],
     },
-    {
-      itemName: 'Regal 32ft',
-      category: 'yachts',
-      url: 'regal_32ft',
-      description:
-        'Regal 32ft 3 hours $599 4 hours $699. Includes: captain, gas, cooler, marina fee & floating Matt. -Capacity: 13 people max',
-      location: 'Miami Beach',
-      mainImage: imagesRegal42ft.img1,
-      price: '599',
-      prices: [
-        {
-          price: '599',
-          time: '3',
-          days: '',
-        },
-        {
-          price: '699',
-          time: '4',
-          days: '',
-        },
-      ],
-      aboutIt: ['Captain', 'Gas', 'Cooler', 'Floating Matt', 'Marina Fee'],
-      gallery: [
-        imagesRegal42ft.img1,
-        imagesRegal42ft.img2,
-        imagesRegal42ft.img3,
-        imagesRegal42ft.img4,
-        imagesRegal42ft.img5,
-        imagesRegal42ft.img6,
-      ],
-    },
-    {
-      itemName: 'Regal 90ft',
-      category: 'yachts',
-      url: 'regal_90ft',
-      description:
-        'Regal 90 ft available 4 hours $4500 Includes: captain, mate, gas and floating Matt and 1 jetski for 1 hour. -Capacity: 13 people max',
-      location: '',
-      mainImage: imagesRegal90ft.img1,
-      price: '4500',
-      prices: [
-        {
-          price: '4500',
-          time: '4',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Jetski for 1 hour'],
-      gallery: [
-        imagesRegal90ft.img1,
-        imagesRegal90ft.img2,
-        imagesRegal90ft.img3,
-        imagesRegal90ft.img4,
-        imagesRegal90ft.img5,
-      ],
-    },
+    // {
+    //   itemName: 'Regal 32ft',
+    //   category: 'yachts',
+    //   url: 'regal_32ft',
+    //   description:
+    //     'Regal 32ft 3 hours $599 4 hours $699. Includes: captain, gas, cooler, marina fee & floating Matt. -Capacity: 13 people max',
+    //   location: 'Miami Beach',
+    //   mainImage: imagesRegal42ft.img1,
+    //   price: '599',
+    //   prices: [
+    //     {
+    //       price: '599',
+    //       time: '3',
+    //       days: '',
+    //     },
+    //     {
+    //       price: '699',
+    //       time: '4',
+    //       days: '',
+    //     },
+    //   ],
+    //   aboutIt: ['Captain', 'Gas', 'Cooler', 'Floating Matt', 'Marina Fee'],
+    //   gallery: [
+    //     imagesRegal42ft.img1,
+    //     imagesRegal42ft.img2,
+    //     imagesRegal42ft.img3,
+    //     imagesRegal42ft.img4,
+    //     imagesRegal42ft.img5,
+    //     imagesRegal42ft.img6,
+    //   ],
+    // },
+    // {
+    //   itemName: 'Regal 90ft',
+    //   category: 'yachts',
+    //   url: 'regal_90ft',
+    //   description:
+    //     'Regal 90 ft available 4 hours $4500 Includes: captain, mate, gas and floating Matt and 1 jetski for 1 hour. -Capacity: 13 people max',
+    //   location: '',
+    //   mainImage: imagesRegal90ft.img1,
+    //   price: '4500',
+    //   prices: [
+    //     {
+    //       price: '4500',
+    //       time: '4',
+    //     },
+    //   ],
+    //   aboutIt: ['Mate', 'Captain', 'Gas', 'Floating Matt', 'Jetski for 1 hour'],
+    //   gallery: [
+    //     imagesRegal90ft.img1,
+    //     imagesRegal90ft.img2,
+    //     imagesRegal90ft.img3,
+    //     imagesRegal90ft.img4,
+    //     imagesRegal90ft.img5,
+    //   ],
+    // },
     {
       itemName: 'Searay Sundancer 38ft',
       category: 'yachts',
@@ -740,35 +772,35 @@ export const data = {
         imagesSeaRay50ft.img5,
       ],
     },
-    {
-      itemName: 'Searay Sundancer 47ft',
-      category: 'yachts',
-      url: 'searay_sundancer_47ft',
-      description:
-        'Searay Sundancer 47ft Monday-Thursday $899 Friday-Sunday $950. Includes: captain, mate, gas, cooler. -Capacity: 13 people max. -Capacity: 13 people max',
-      location: 'Miami Beach',
-      mainImage: imagesSearaySundancer47ft.img2,
-      price: '899',
-      prices: [
-        {
-          price: '899',
-          time: '4',
-          days: 'Monday - Thursday',
-        },
-        {
-          price: '959',
-          time: '4',
-          days: 'Friday - Sunday',
-        },
-      ],
-      aboutIt: ['Mate', 'Captain', 'Gas', 'Cooler'],
-      gallery: [
-        imagesSearaySundancer47ft.img1,
-        imagesSearaySundancer47ft.img2,
-        imagesSearaySundancer47ft.img3,
-        imagesSearaySundancer47ft.img4,
-      ],
-    },
+    // {
+    //   itemName: 'Searay Sundancer 47ft',
+    //   category: 'yachts',
+    //   url: 'searay_sundancer_47ft',
+    //   description:
+    //     'Searay Sundancer 47ft Monday-Thursday $899 Friday-Sunday $950. Includes: captain, mate, gas, cooler. -Capacity: 13 people max. -Capacity: 13 people max',
+    //   location: 'Miami Beach',
+    //   mainImage: imagesSearaySundancer47ft.img2,
+    //   price: '899',
+    //   prices: [
+    //     {
+    //       price: '899',
+    //       time: '4',
+    //       days: 'Monday - Thursday',
+    //     },
+    //     {
+    //       price: '959',
+    //       time: '4',
+    //       days: 'Friday - Sunday',
+    //     },
+    //   ],
+    //   aboutIt: ['Mate', 'Captain', 'Gas', 'Cooler'],
+    //   gallery: [
+    //     imagesSearaySundancer47ft.img1,
+    //     imagesSearaySundancer47ft.img2,
+    //     imagesSearaySundancer47ft.img3,
+    //     imagesSearaySundancer47ft.img4,
+    //   ],
+    // },
     {
       itemName: 'Searay 52ft',
       category: 'yachts',
@@ -1176,6 +1208,79 @@ export const data = {
         imagesMercedesBenz.img3,
         imagesMercedesBenz.img4,
         imagesMercedesBenz.img5,
+      ],
+    },
+    {
+      itemName: 'Mercedes Sprinter Sky Blue',
+      category: 'transportation',
+      url: 'mercedes_sprinter_sky_blue',
+      description: 'Mercedes Sprinter Sky Blue $200 per hour, minimum 4 hours',
+      capacity: '',
+      location: '',
+      mainImage: imagesMercedesSprinterSkyBlue.img1,
+      price: '200',
+      prices: [
+        {
+          price: '200',
+          time: '1',
+          days: '',
+        },
+      ],
+      aboutIt: [],
+      gallery: [
+        imagesMercedesSprinterSkyBlue.img1,
+        imagesMercedesSprinterSkyBlue.img2,
+        imagesMercedesSprinterSkyBlue.img3,
+        imagesMercedesSprinterSkyBlue.img4,
+        imagesMercedesSprinterSkyBlue.img5,
+      ],
+    },
+    {
+      itemName: 'Mercedes Van Royal Blue',
+      category: 'transportation',
+      url: 'mercedes_van_royal_blue',
+      description: 'Mercedes Van Royal Blue $140 per hour, minimum 3 hours',
+      capacity: '',
+      location: '',
+      mainImage: imagesMercedesVanRoyalBlue.img1,
+      price: '140',
+      prices: [
+        {
+          price: '140',
+          time: '1',
+          days: '',
+        },
+      ],
+      aboutIt: [],
+      gallery: [
+        imagesMercedesVanRoyalBlue.img1,
+        imagesMercedesVanRoyalBlue.img2,
+        imagesMercedesVanRoyalBlue.img3,
+        imagesMercedesVanRoyalBlue.img4,
+      ],
+    },
+    {
+      itemName: 'Mercedes Van Tiffany Blue',
+      category: 'transportation',
+      url: 'mercedes_van_tiffany_blue',
+      description: 'Mercedes Van Tiffany Blue $150 per hour, minimum 3 hours',
+      capacity: '',
+      location: '',
+      mainImage: imagesMercedesVanTiffanyBlue.img1,
+      price: '150',
+      prices: [
+        {
+          price: '150',
+          time: '1',
+          days: '',
+        },
+      ],
+      aboutIt: [],
+      gallery: [
+        imagesMercedesVanTiffanyBlue.img1,
+        imagesMercedesVanTiffanyBlue.img2,
+        imagesMercedesVanTiffanyBlue.img3,
+        imagesMercedesVanTiffanyBlue.img4,
       ],
     },
   ],
